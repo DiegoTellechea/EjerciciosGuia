@@ -29,7 +29,7 @@ public class Ej_13_14_Guia_Vector {
         for (int i = 0; i < cantidadCompaneros; i++) {
             System.out.print("Ingrese el nombre del compañero " + (i + 1) + ": ");
             String nombre = leer.nextLine();  // Leer el nombre del compañero
-            equipo[i] = nombre;  // Asignar el nombre del compañero a la posición correspondiente en el arreglo
+            equipo[i] = nombre;  //Asignar el nombre del compañero a la posición correspondiente en el arreglo
         }
         
         System.out.println("Nombres de los compañeros de equipo:");

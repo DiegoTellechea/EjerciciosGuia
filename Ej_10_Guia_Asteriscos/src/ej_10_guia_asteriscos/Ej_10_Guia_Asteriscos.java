@@ -13,7 +13,7 @@ import java.util.Scanner;
 
 /**
  *
- * @author Usuario
+ * @author Diego T.
  */
 public class Ej_10_Guia_Asteriscos {
 
