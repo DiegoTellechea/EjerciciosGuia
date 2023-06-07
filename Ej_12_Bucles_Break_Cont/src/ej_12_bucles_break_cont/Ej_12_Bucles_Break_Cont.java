@@ -51,6 +51,3 @@ public class Ej_12_Bucles_Break_Cont {
         System.out.println("Lecturas incorrectas: " + lecturasIncorrectas);
     }
 }
-    }
-    
-}

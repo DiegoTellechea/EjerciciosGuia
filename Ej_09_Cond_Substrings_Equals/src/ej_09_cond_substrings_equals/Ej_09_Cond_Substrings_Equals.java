@@ -17,7 +17,7 @@ public class Ej_09_Cond_Substrings_Equals {
     public static void main(String[] args) {
         
         Scanner leer = new Scanner(System.in); // Creamos un objeto Scanner para leer la entrada del usuario
-        System.out.println("Ingrese una frase o palabra"); // Pedimos al usuario que ingrese una frase o palabra
+        System.out.println("Ingrese una frase o palabra"); 
         String frase = leer.nextLine(); // Leemos la frase ingresada y la guardamos en la variable 'frase'
         String fraseMin = frase.toLowerCase(); // Convertimos la frase a minúsculas y la guardamos en la variable 'fraseMin'
         
