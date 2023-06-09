@@ -23,7 +23,7 @@ public class Ej_Extra_23_SopaDeLetras {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-             int filas = 20; // Número de filas de la matriz
+        int filas = 20; // Número de filas de la matriz
         int columnas = 20; // Número de columnas de la matriz
 
         char[][] sopaLetras = new char[filas][columnas];
