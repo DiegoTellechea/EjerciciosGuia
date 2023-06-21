@@ -55,11 +55,11 @@ public class Operacion {
     }
     
      public void crearOperacion() {
-        Scanner scanner = new Scanner(System.in);
+        Scanner leer = new Scanner(System.in);
         System.out.print("Ingrese el primer número: ");
-        numero1 = scanner.nextInt();
+        numero1 = leer.nextInt();
         System.out.print("Ingrese el segundo número: ");
-        numero2 = scanner.nextInt();
+        numero2 = leer.nextInt();
     }
 
     // Método sumar(): calcula la suma de los números y devuelve el resultado

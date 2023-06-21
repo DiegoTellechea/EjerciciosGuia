@@ -26,6 +26,11 @@ public class POO_Ej_01_Libro {
 
         // Mostrar los datos del libro
         libro.mostrarDatos();
+        
+        
+        System.out.println(libro.toString());
+        
     }
     
 }
+

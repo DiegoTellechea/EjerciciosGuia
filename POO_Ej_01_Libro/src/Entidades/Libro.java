@@ -66,6 +66,9 @@ public class Libro {
     public String toString() {
         return "Libro{" + "ISBN=" + ISBN + ", Titulo=" + Titulo + ", Autor=" + Autor + ", NumDePaginas=" + NumDePaginas + '}';
     }
+
+
+   
     
    public void cargarLibro() {
         Scanner scanner = new Scanner(System.in);
