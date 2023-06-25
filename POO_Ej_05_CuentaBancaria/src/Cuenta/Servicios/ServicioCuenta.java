@@ -14,13 +14,13 @@ import java.util.Scanner;
  */
 public class ServicioCuenta {
     public Cuenta crearCuenta() {
-        Scanner scanner = new Scanner(System.in);
+        Scanner leer = new Scanner(System.in);
         System.out.print("Ingrese el número de cuenta: ");
-        int numeroCuenta = scanner.nextInt();
+        int numeroCuenta = leer.nextInt();
         System.out.print("Ingrese el DNI del cliente: ");
-        long dniCliente = scanner.nextLong();
+        long dniCliente = leer.nextLong();
         System.out.print("Ingrese el saldo actual: ");
-        int saldoActual = scanner.nextInt();
+        int saldoActual = leer.nextInt();
 
         Cuenta cuenta = new Cuenta(numeroCuenta, dniCliente, saldoActual);
 
@@ -28,9 +28,9 @@ public class ServicioCuenta {
     }
 
     public void ingresarDinero(Cuenta cuenta) {
-        Scanner scanner = new Scanner(System.in);
+        Scanner leer = new Scanner(System.in);
         System.out.print("Ingrese la cantidad de dinero a ingresar: ");
-        double ingreso = scanner.nextDouble();
+        double ingreso = leer.nextDouble();
         cuenta.ingresar(ingreso);
         System.out.println("Se ha ingresado $" + ingreso + " a la cuenta.");
     }
