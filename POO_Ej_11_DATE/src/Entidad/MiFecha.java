@@ -20,8 +20,7 @@ public class MiFecha {
         this.anio = anio;
     }
     
-    // Getters y setters
-    // ...
+  
 
     public int getDia() {
         return dia;

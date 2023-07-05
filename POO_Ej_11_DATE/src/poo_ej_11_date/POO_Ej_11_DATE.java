@@ -21,16 +21,16 @@ public class POO_Ej_11_DATE {
             
     
         public static void main(String[] args) {
-          Scanner scanner = new Scanner(System.in);
+          Scanner leer = new Scanner(System.in);
         
         System.out.println("Ingrese el día:");
-        int dia = scanner.nextInt();
+        int dia = leer.nextInt();
         
         System.out.println("Ingrese el mes:");
-        int mes = scanner.nextInt() - 1;
+        int mes = leer.nextInt() - 1;
         
         System.out.println("Ingrese el año:");
-        int anio = scanner.nextInt()-1900;
+        int anio = leer.nextInt()-1900;
         
         MiFecha fecha = new MiFecha(dia, mes, anio);
         
